@@ -9,7 +9,7 @@ class ExperiencesController < ApplicationController
     get '/experiences' do
       if is_logged_in?
         @user = current_user
-        erb :"experiences/experiences"
+        erb :"experiences/experience"
       else
         flash[:login] = "You need to be logged in to performance that action"
         redirect to '/login'
