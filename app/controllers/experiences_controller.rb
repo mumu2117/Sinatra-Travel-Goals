@@ -112,7 +112,7 @@ class ExperiencesController < ApplicationController
   
     get '/experiences/:id' do
       @user = current_user
-      @experience = Experience.find(params["id"])
+      @experience = Experience.find_by_id(params["id"])
       erb :"experiences/show"
     end
   
