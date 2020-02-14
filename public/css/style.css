@@ -1,9 +1,9 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;color:magenta;
   }
   
   p, div {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif; color:magenta;
   }
   
   .home-page-bkgd {
